@@ -1,0 +1,32 @@
+{
+  "name": "zigchainmultisend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [
+    "zigchain",
+    "cosmos",
+    "multisend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "TypeScript project for Zigchain MultiSend functionality",
+  "dependencies": {
+    "@cosmjs/amino": "^0.33.1",
+    "@cosmjs/encoding": "^0.33.1",
+    "@cosmjs/proto-signing": "^0.33.1",
+    "@cosmjs/stargate": "^0.33.1",
+    "@types/node": "^22.15.21",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
